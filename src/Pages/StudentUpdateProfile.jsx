@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
 
-import { studentUpdate, studentLogout,newerChats, previousChats } from '../redux/action/studentAction'
+import { studentUpdate, studentLogout } from '../redux/action/studentAction'
 import HomeHelper from '../Components/HomeHelper'
 
 import { useHistory, withRouter } from 'react-router-dom'
@@ -18,7 +18,6 @@ const StudentUpdateProfile = () => {
     const [aadharCard, setAadharCard] = useState('')
     const [error, setError] = useState({})
     const [avatar, setAvatar] = useState('')
-    const [isLoading, setIsLoading] = useState(false)
     const [modal, setModal] = useState(false)
     const imagehandler = (e) => {
         if (e.target.files && e.target.files[0]) {

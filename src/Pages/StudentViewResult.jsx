@@ -1,4 +1,4 @@
-import React, { useEffect,useState  } from 'react'
+import React, { useEffect} from 'react'
 import { useSelector,useDispatch  } from 'react-redux';
 import { studentFetchResult } from '../redux/action/studentAction';
 import {Table, Container} from 'react-bootstrap';

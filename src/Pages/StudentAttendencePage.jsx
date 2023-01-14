@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React, {  useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import {fetchAttendence} from '../redux/action/studentAction'
 
-import axios from 'axios'
 import HomeHelper from '../Components/HomeHelper'
 import { useHistory } from 'react-router-dom'
 

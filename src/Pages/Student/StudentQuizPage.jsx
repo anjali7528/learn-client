@@ -16,7 +16,7 @@ const StudentQuizPage = (props) => {
     const nextHandler = ()=>{
       
         console.log(response);
-        if(arrayEquals(response,props.quiz.questions[i].Answer) == true){
+        if(arrayEquals(response,props.quiz.questions[i].Answer) === true){
             setMarks(marks=>{
                 return (marks+(+(props.quiz.questions[i].marks)))
             })

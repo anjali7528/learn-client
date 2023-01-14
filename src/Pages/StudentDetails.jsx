@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { useSelector, useDispatch } from 'react-redux'
-import {newerChats, previousChats} from '../redux/action/studentAction'
+import React, { useState } from 'react'
+import { useSelector } from 'react-redux'
 import axios from 'axios'
 import HomeHelper from '../Components/HomeHelper'
 import {Link, useHistory } from 'react-router-dom'

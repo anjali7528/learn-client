@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, {useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { getMarks } from '../../redux/action/studentAction'
 import HomeHelper from '../../Components/HomeHelper'
