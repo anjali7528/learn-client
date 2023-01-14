@@ -7,7 +7,7 @@ import store from './redux/store'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { setFacultyUser, facultyLogout } from './redux/action/facultyAction'
 
-import { setAdminUser, adminLogout, adminGetAllStudent } from './redux/action/adminAction'
+import { setAdminUser, adminLogout } from './redux/action/adminAction'
 
 import { setStudentUser, studentLogout } from './redux/action/studentAction'
 

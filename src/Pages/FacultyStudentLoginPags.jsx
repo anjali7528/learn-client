@@ -119,8 +119,8 @@ const FacultyStudentLoginPags = () => {
                                             <div className="invalid-feedback">{errors.password}</div>
                                         )}
                                     </div>
-                                    <div class="row justify-content-center">
-                                        <div class="col-md-1">
+                                    <div className="row justify-content-center">
+                                        <div className="col-md-1">
                                             {
                                                 isFacultyLoading && <div class="spinner-border text-primary" role="status">
                                                     <span class="sr-only">Loading...</span>
@@ -160,8 +160,8 @@ const FacultyStudentLoginPags = () => {
                                             <div className="invalid-feedback">{errorsHelper.password}</div>
                                         )}
                                     </div>
-                                    <div class="row justify-content-center">
-                                        <div class="col-md-1">
+                                    <div className="row justify-content-center">
+                                        <div className="col-md-1">
                                             {
                                                 isStudentLoading && <div class="spinner-border text-primary" role="status">
                                                     <span class="sr-only">Loading...</span>

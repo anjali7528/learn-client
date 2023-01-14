@@ -11,7 +11,7 @@ const QuizScore = (props) => {
 
 
     useEffect(()=>{
-        if(data == true){
+        if(data === true){
             props.setResponse([...answer])
             console.log(answer)
         }
